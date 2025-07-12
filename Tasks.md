@@ -66,5 +66,3 @@
 - Linting, formatting, and base project scaffold complete
 
 ---
-
-## 📝 Commit Naming Standard
