@@ -3,31 +3,32 @@
 
 ---
 
-### 🧩 Individual Assignments (Portfolio + Task)
+### 🧩 Individual Assignments (Portfolio + Task + Coordination Notes)
 
-| **Member**     | **Portfolio + Task**                                                                                                                                                           |
-|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Jayant**     | Portfolio using HTML, CSS and JS → Setup ESLint, Prettier, and `pnpm` config for the project                                                                                   |
-| **Atindra**    | Portfolio using HTML, CSS and JS → Create `SITEMAP.md` for the project structure and a task-tracker markdown listing all current team assignments                              |
-| **Abhiran**    | Portfolio using HTML, CSS and JS → Write Unique Value Proposition (UVP) and Minimum Viable Product (MVP) docs in `docs/UVP.md` and `docs/MVP.md`                              |
-| **Asad**       | Portfolio using HTML, CSS and JS → Write `README.md` including install instructions, tech stack overview, and project description                                              |
-| **Tushar**     | – → Initialize the frontend application using Next.js with Tailwind CSS and TypeScript. Set up the folder structure and homepage layout                                       |
-| **Shoury**     | – → Set up the backend API structure using either Next.js API routes or Express.js. Create base folder layout and test a sample endpoint                                       |
-| **Kayum**      | – → Draft short descriptions for 5–10 internship resources (like Internshala, HelloIntern, etc.) and sync this data to the database or mock file                              |
-| **Utkarsh**    | – → Build the `/internships` page using static mock data. Implement a responsive resource card layout displaying at least 3 mock resources                                     |
-| **Manoj**      | – → Build the header and footer components using shadcn/ui and Tailwind CSS. Apply base layout styles and send components for integration                                      |
-| **Pankaj**     | – → Create a file `internships.json` using Kayum’s data. Structure it with fields: name, url, description, and tags                                                            |
-| **Aayush**     | – → Set up Prisma and connect to PostgreSQL. Define the schema and seed 3 sample entries using real data from `internships.json`                                               |
-| **Shakur**     | – → Sync internship JSON data to the database using Prisma. Test with queries and ensure data availability for the API                                                         |
-| **Akash**      | – → Implement the `/api/internships` endpoint to return internship resources. Use JSON mock or seeded DB and test GET response                                                 |
-| **Vishal**     | Portfolio using HTML, CSS and JS → Add Clerk authentication setup scaffold to the project (basic login/logout flow or placeholder)                                             |
-| **Abhijeet**   | Portfolio using HTML, CSS and JS → Deploy the working frontend to Vercel using GitHub. Confirm live URL and share deployment with the team                                                                    |
+| **Member**     | **Portfolio + Task**                                                                                                                                                                        |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Jayant**     | Portfolio using HTML, CSS and JS → Setup ESLint, Prettier, and `pnpm` config for the project → ✅ Share config files with all frontend/backend team members after pushing to GitHub         |
+| **Atindra**    | Portfolio using HTML, CSS and JS → Create `SITEMAP.md` and task-tracker markdown → ✅ Send both docs to Tushar for linking inside project `/docs`                                           |
+| **Abhiran**    | Portfolio using HTML, CSS and JS → Write UVP and MVP in `docs/UVP.md`, `docs/MVP.md` → ✅ Share content with Asad to reference inside `README.md`                                           |
+| **Asad**       | Portfolio using HTML, CSS and JS → Write `README.md` with install steps, tech stack, usage guide → ✅ Ask Jayant and Shoury for setup instructions and project structure before writing     |
+| **Tushar**     | – → Initialize frontend app using Next.js + Tailwind + TypeScript → ✅ Share folder structure with Vishal, Utkarsh, and Manoj for component integration                                     |
+| **Shoury**     | – → Setup backend API structure (Next.js API routes or Express) → ✅ Inform Aayush and Akash once `/api/` routing is ready                                                                 |
+| **Kayum**      | – → Draft 5–10 internship descriptions and sync to database or JSON → ✅ After completing, send data to Pankaj and confirm with Aayush for DB seeding format                                |
+| **Utkarsh**    | – → Build `/internships` page with mock resource cards → ✅ Ask Tushar for frontend base structure before starting. Share final page with Abhijeet for deployment                           |
+| **Manoj**      | – → Build navbar and footer using shadcn/ui + Tailwind → ✅ Send components to Utkarsh and Tushar for layout integration                                                                   |
+| **Pankaj**     | – → Create `internships.json` using Kayum’s content → ✅ Share file with Akash for API and Aayush for DB seed sync                                                                          |
+| **Aayush**     | – → Setup Prisma + PostgreSQL schema → ✅ Ask Pankaj for `internships.json` format. Share schema with Akash and Shakur for DB tests                                                        |
+| **Shakur**     | – → Sync JSON data to DB + test connection → ✅ Ask Aayush for DB access and confirm with Akash that data returns properly                                                                  |
+| **Akash**      | – → Implement `/api/internships` endpoint → ✅ Use data from Aayush or JSON from Pankaj. Test and share with Utkarsh and Shoury                                                             |
+| **Vishal**     | Portfolio using HTML, CSS and JS → Setup Clerk scaffold (placeholder auth) → ✅ Ask Tushar for frontend structure before integrating auth UI                                                |
+| **Abhijeet**   | – → Deploy working project to Vercel via GitHub → ✅ Ask Utkarsh and Tushar for working build. Share live link in group for testing                                                         |
 
 ---
 
 ### 📌 Notes
 
-- Portfolio sections should include: **About**, **GitHub link**, **Tools you're using**, **One resource recommendation**
-- All members should **commit at least once**
-- Suggested commit format:  
-  `feat: internships page`, `docs: add MVP`, `chore: lint config`
+- Portfolio should be **simple HTML/CSS/JS** with sections: About, Tools, GitHub, Resource Suggestion  
+- All members should make **at least one commit**
+- Suggested commit formats:  
+  `feat: internships page`, `chore: lint config`, `docs: add MVP`
+
