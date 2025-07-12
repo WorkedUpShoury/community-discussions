@@ -1,68 +1,33 @@
-## ✅ Milestone 1 – Jul 15 to Jul 17, 2025 (First Commit – 3-Day Setup Sprint)
-
-🎯 **Goal**: Ship a functional foundation:
-- Project setup (frontend, backend, db)
-- One working `/internships` page with dummy data
-- Docs initialized
-- Design references ready
-- Basic style guide + deploy scaffold
+## ✅ Milestone 1 – Jul 15 to Jul 17, 2025  
+### 🎯 Focus: Setup Project + Deliver First Commit + Personal Mini Portfolio
 
 ---
 
-### 🏗️ Project Setup & Structure
+### 🧩 Individual Assignments (Portfolio + Task)
 
-- [ ] **Jayant**: Create the frontend app with Next.js + TypeScript + Tailwind CSS  
-  - Add base layout (`layout.tsx`), `_app.tsx`, and `/internships` route  
-- [ ] **Shoury**: Initialize backend API structure in `pages/api/` (or Express if external)  
-  - Add a sample GET endpoint at `/api/internships` with mock JSON  
-
-- [ ] **Aayush**: Set up Prisma + PostgreSQL schema for internship resources  
-  - Add seed script with 3 sample entries  
-  - Run and test `prisma generate` & `prisma migrate dev`  
-
----
-
-### 🧱 UI & Page Implementation
-
-- [ ] **Utkarsh**: Build `/internships` page with a resource list using mock data  
-  - Style cards using Tailwind  
-  - Fetch from static JSON or Shoury’s endpoint  
-
-- [ ] **Manoj**: Create basic layout with navbar + footer using shadcn/ui  
-  - Design in Figma and implement with Tailwind  
+| **Member**     | **Portfolio + Task**                                                                                                                                                           |
+|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Jayant**     | Portfolio using HTML, CSS and JS → Setup ESLint, Prettier, and `pnpm` config for the project                                                                                   |
+| **Atindra**    | Portfolio using HTML, CSS and JS → Create `SITEMAP.md` for the project structure and a task-tracker markdown listing all current team assignments                              |
+| **Abhiran**    | Portfolio using HTML, CSS and JS → Write Unique Value Proposition (UVP) and Minimum Viable Product (MVP) docs in `docs/UVP.md` and `docs/MVP.md`                              |
+| **Asad**       | Portfolio using HTML, CSS and JS → Write `README.md` including install instructions, tech stack overview, and project description                                              |
+| **Tushar**     | – → Initialize the frontend application using Next.js with Tailwind CSS and TypeScript. Set up the folder structure and homepage layout                                       |
+| **Shoury**     | – → Set up the backend API structure using either Next.js API routes or Express.js. Create base folder layout and test a sample endpoint                                       |
+| **Kayum**      | – → Draft short descriptions for 5–10 internship resources (like Internshala, HelloIntern, etc.) and sync this data to the database or mock file                              |
+| **Utkarsh**    | – → Build the `/internships` page using static mock data. Implement a responsive resource card layout displaying at least 3 mock resources                                     |
+| **Manoj**      | – → Build the header and footer components using shadcn/ui and Tailwind CSS. Apply base layout styles and send components for integration                                      |
+| **Pankaj**     | – → Create a file `internships.json` using Kayum’s data. Structure it with fields: name, url, description, and tags                                                            |
+| **Aayush**     | – → Set up Prisma and connect to PostgreSQL. Define the schema and seed 3 sample entries using real data from `internships.json`                                               |
+| **Shakur**     | – → Sync internship JSON data to the database using Prisma. Test with queries and ensure data availability for the API                                                         |
+| **Akash**      | – → Implement the `/api/internships` endpoint to return internship resources. Use JSON mock or seeded DB and test GET response                                                 |
+| **Vishal**     | Portfolio using HTML, CSS and JS → Add Clerk authentication setup scaffold to the project (basic login/logout flow or placeholder)                                             |
+| **Abhijeet**   | Portfolio using HTML, CSS and JS → Deploy the working frontend to Vercel using GitHub. Confirm live URL and share deployment with the team                                                                    |
 
 ---
 
-### 📚 Data & Content Prep
+### 📌 Notes
 
-- [ ] **Pankaj**: Collect and write short descriptions for 5–10 internship platforms  
-- [ ] **Kayum**: Create a `data/internships.json` file with sample structure and tags  
-  - Format: `{ name, url, tags, description }`  
-
-- [ ] **Akash**: Assist Aayush in syncing mock JSON with database seed format  
-
----
-
-### 🧾 Docs & Developer Essentials
-
-- [ ] **Abhiran**: Draft the UVP and MVP in `docs/UVP.md` and `docs/MVP.md`  
-- [ ] **Tushar**: Create `README.md` with install/run instructions + tech stack list  
-- [ ] **Asad**: Add ESLint + Prettier + pnpm setup with base config  
-- [ ] **Atindra**: Write initial `SITEMAP.md` + update team task table in docs  
-
----
-
-### 🌐 Deployment (Optional if ready)
-
-- [ ] **Vishal**: Set up Clerk and test with a simple “login” button (placeholder UI)  
-- [ ] **Abhijeet**: Deploy to Vercel from GitHub main branch and confirm it's live  
-
----
-
-## 🏁 Deliverables by Day 3:
-- `/internships` page rendering real/fake data via component
-- Live demo or local run-ready code
-- Committed docs: MVP, UVP, SITEMAP
-- Linting, formatting, and base project scaffold complete
-
----
+- Portfolio sections should include: **About**, **GitHub link**, **Tools you're using**, **One resource recommendation**
+- All members should **commit at least once**
+- Suggested commit format:  
+  `feat: internships page`, `docs: add MVP`, `chore: lint config`
