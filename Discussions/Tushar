@@ -1,1 +1,177 @@
+#FILE STRUCTURE 
 
+fresher404/
+├── README.md
+├── next.config.js
+├── package.json
+├── pnpm-lock.yaml
+├── tailwind.config.ts
+├── tsconfig.json
+├── .env.example
+├── .env.local
+├── .gitignore
+├── .eslintrc.json
+├── prettier.config.js
+├── components.json
+│
+├── public/
+│   ├── logo.svg
+│   ├── favicon.ico
+│   ├── images/
+│   │   ├── hero/
+│   │   ├── icons/
+│   │   └── placeholders/
+│   └── assets/
+│
+├── src/
+│   ├── app/
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   ├── loading.tsx
+│   │   ├── not-found.tsx
+│   │   ├── error.tsx
+│   │   │
+│   │   ├── (auth)/
+│   │   │   ├── login/
+│   │   │   │   └── page.tsx
+│   │   │   └── register/
+│   │   │       └── page.tsx
+│   │   │
+│   │   ├── dashboard/
+│   │   │   ├── page.tsx
+│   │   │   ├── profile/
+│   │   │   │   └── page.tsx
+│   │   │   ├── saved/
+│   │   │   │   └── page.tsx
+│   │   │   └── roadmap/
+│   │   │       └── page.tsx
+│   │   │
+│   │   ├── resources/
+│   │   │   ├── page.tsx
+│   │   │   ├── [category]/
+│   │   │   │   └── page.tsx
+│   │   │   └── [id]/
+│   │   │       └── page.tsx
+│   │   │
+│   │   ├── browse/
+│   │   │   └── page.tsx
+│   │   │
+│   │   ├── contribute/
+│   │   │   └── page.tsx
+│   │   │
+│   │   ├── about/
+│   │   │   └── page.tsx
+│   │   │
+│   │   └── api/
+│   │       ├── resources/
+│   │       │   └── route.ts
+│   │       ├── search/
+│   │       │   └── route.ts
+│   │       └── contribute/
+│   │           └── route.ts
+│   │
+│   ├── components/
+│   │   ├── ui/
+│   │   │   ├── button.tsx
+│   │   │   ├── card.tsx
+│   │   │   ├── input.tsx
+│   │   │   ├── badge.tsx
+│   │   │   ├── dropdown-menu.tsx
+│   │   │   ├── dialog.tsx
+│   │   │   ├── tabs.tsx
+│   │   │   ├── select.tsx
+│   │   │   ├── skeleton.tsx
+│   │   │   └── toast.tsx
+│   │   │
+│   │   ├── layout/
+│   │   │   ├── Header.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   ├── Navbar.tsx
+│   │   │   └── Sidebar.tsx
+│   │   │
+│   │   ├── sections/
+│   │   │   ├── HeroSection.tsx
+│   │   │   ├── FeaturesSection.tsx
+│   │   │   ├── ResourcesSection.tsx
+│   │   │   ├── StatsSection.tsx
+│   │   │   └── CTASection.tsx
+│   │   │
+│   │   ├── cards/
+│   │   │   ├── ResourceCard.tsx
+│   │   │   ├── CourseCard.tsx
+│   │   │   ├── CategoryCard.tsx
+│   │   │   └── ContributorCard.tsx
+│   │   │
+│   │   ├── forms/
+│   │   │   ├── SearchForm.tsx
+│   │   │   ├── FilterForm.tsx
+│   │   │   ├── ContributeForm.tsx
+│   │   │   └── FeedbackForm.tsx
+│   │   │
+│   │   ├── navigation/
+│   │   │   ├── Breadcrumb.tsx
+│   │   │   ├── Pagination.tsx
+│   │   │   └── CategoryNav.tsx
+│   │   │
+│   │   ├── filters/
+│   │   │   ├── ResourceFilter.tsx
+│   │   │   ├── CategoryFilter.tsx
+│   │   │   └── DifficultyFilter.tsx
+│   │   │
+│   │   └── common/
+│   │       ├── LoadingSpinner.tsx
+│   │       ├── ErrorBoundary.tsx
+│   │       ├── EmptyState.tsx
+│   │       └── BackToTop.tsx
+│   │
+│   ├── lib/
+│   │   ├── utils.ts
+│   │   ├── constants.ts
+│   │   ├── validations.ts
+│   │   ├── auth.ts
+│   │   └── database.ts
+│   │
+│   ├── hooks/
+│   │   ├── useLocalStorage.ts
+│   │   ├── useDebounce.ts
+│   │   ├── useSearch.ts
+│   │   └── useResources.ts
+│   │
+│   ├── context/
+│   │   ├── AuthContext.tsx
+│   │   ├── ThemeContext.tsx
+│   │   └── SearchContext.tsx
+│   │
+│   ├── types/
+│   │   ├── index.ts
+│   │   ├── auth.ts
+│   │   ├── resources.ts
+│   │   └── api.ts
+│   │
+│   ├── styles/
+│   │   ├── globals.css
+│   │   └── components.css
+│   │
+│   └── data/
+│       ├── categories.ts
+│       ├── resources.ts
+│       └── mockData.ts
+│
+├── docs/
+│   ├── CONTRIBUTING.md
+│   ├── DEPLOYMENT.md
+│   └── API.md
+│
+├── .github/
+│   ├── workflows/
+│   │   ├── ci.yml
+│   │   └── deploy.yml
+│   └── ISSUE_TEMPLATE/
+│       ├── bug_report.md
+│       └── feature_request.md
+│
+└── tests/
+    ├── __mocks__/
+    ├── components/
+    └── pages/
